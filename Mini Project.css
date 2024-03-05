@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+  
+html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.5);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.logo {
+
+    width: 25px;
+    margin-top: 15px;
+}
+  
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.Introduction {
+    padding: 200px 0 100px 0;
+    background-image: url(keanu\ reeves.jpg);
+    background-size:cover;
+    height: 520px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.Introduction .container h1 {
+    margin-bottom: 10px;
+}
+
+.Introduction .container h3 {
+    margin-bottom: 5px;
+}
+
+.Introduction .container p {
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+.middle-part {
+    position: relative;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid #b026ff;
+    filter: blur(5px);
+}
+
+.Content {
+    height: 395px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(36, 36, 36);
+}
+
+.explanation .icon, h2, .Text {
+    float: left;
+    width: 50%;
+    color: white;
+}
+
+.explanation .icon {
+    width: 25%;
+    margin-right: 40px;
+    margin-left: 30px;
+    box-shadow: 8px 8px #c155ff;
+}
+
+.explanation p {
+    margin-bottom: 10px;
+
+}
+
+.explanation h2 {
+    margin-bottom: 15px;
+}
+
+
+
+.game-list {
+    height: 500px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(pacman.jpg);
+    background-size: cover;
+    text-align: center;
+}
+  
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+  
+.heading h2 {
+    font-weight: normal;
+}
+  
+.game {
+    float: left;
+    width: 25%;
+}
+  
+.game-icon {
+    position: relative;
+}
+
+.icon-border {
+    -webkit-box-shadow: 0px 0px 10px #c155ff;
+    -moz-box-shadow: 0px 0px 10px #c155ff;
+    box-shadow: 0px 0px 10px #c155ff;
+}
+  
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+
+
+.contact-part {
+    background-color: black;
+    text-align: center;
+    height: 600px;
+}
+
+.contact-form {
+    padding-top: 100px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.contact-form h1, p {
+    color: white;
+}
+
+.contact-form h1 {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    border-radius: 4px;
+}
+  
+.contact-submit:hover {
+    background-color: rgb(95, 95, 95);
+    color: #292929;
+}
+
+
+
+footer {
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    height: 200px;
+    padding: 40px;
+    position: relative;
+}
+
+.find-me {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 33px 20px;
+}
